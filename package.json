@@ -1,0 +1,19 @@
+{
+  "name": "damson-server-http",
+  "description": "Sample damson HTTP server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damsonjs/damson-server-http.git"
+  },
+  "scripts": {
+    "test": "jshint *.js lib/*.js"
+  },
+  "author": "Andrey Zhylin <andrey.zhylin@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "damson-server-core": "0.0.2",
+    "except": "^0.1.3"
+  }
+}
